@@ -1,0 +1,23 @@
+{
+  "name": "com_helloworld",
+  "version": "1.0.0",
+  "description": "Joomla! 3.0: MVC Component",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OmarSagazio/joomla_mvc_component.git"
+  },
+  "author": "Omar S.",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/OmarSagazio/joomla_mvc_component/issues"
+  },
+  "homepage": "https://github.com/OmarSagazio/joomla_mvc_component#readme",
+  "devDependencies": {
+    "del": "^2.2.2",
+    "gulp": "^3.9.1"
+  }
+}
