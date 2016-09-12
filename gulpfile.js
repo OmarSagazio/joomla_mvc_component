@@ -1,9 +1,16 @@
 var gulp = require('gulp'),
-    del = require('del');
+    del = require('del'),
+    zip = require('gulp-zip');
 
 
 gulp.task('deploy', function () {
     // Zippare i file
+});
+
+gulp.task('zip', function() {
+    return gulp.src('src/com_helloworld/**')
+        .pipe(zip('com_helloworld.zip'))
+        .pipe(gulp.dest('dist'));
 });
 
 gulp.task('clean', function () {

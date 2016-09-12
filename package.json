@@ -18,6 +18,7 @@
   "homepage": "https://github.com/OmarSagazio/joomla_mvc_component#readme",
   "devDependencies": {
     "del": "^2.2.2",
-    "gulp": "^3.9.1"
+    "gulp": "^3.9.1",
+    "gulp-zip": "^3.2.0"
   }
 }
